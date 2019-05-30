@@ -5,15 +5,15 @@ Qualificação Técnica de Desenvolvimento de Aplicativos Computacionais
 
 **Turma** 2019
 
-##Conhecimentos Adquiridos
+## Conhecimentos Adquiridos
 
--Photoshop (Wireframes / Prototipagem Web)
--HTML5 & CSS3
--Lógica de Programação
+- Photoshop (Wireframes / Prototipagem Web)
+- HTML5 & CSS3
+- Lógica de Programação
 
-###Exemplo Hello World em Java Script vanilla
-'''js
+### Exemplo Hello World em Java Script vanilla
+```js
 <script>
    alert("Hello World");
 </scrit>
-'''
+```
