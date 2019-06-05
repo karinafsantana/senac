@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML 5-Semantica</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <main>
+        <header>Cabeçario</header>
+        <nav>Menu</nav>
+        <section id="formulario">
+            <div class="row">
+                <div class="bloco12">
+                    <h1>Formulario de Contato</h1>
+                    <p>Preencha o Formulario Abaixo</p>
+                    <form id="contato" method="get">
+                        <label for="nome">nome</label>
+                        <input type="text" name="nome" id="nome" placeholder="informe o nome">
+
+                        <label for="email">E-mail</label>
+                        <input type="email" name="email" id="email">
+
+                        <label for="telefone">Telefone</label>
+                        <input type="tel" name="telefone" id="telefone">
+
+                        <label for="nascimento">Data de nascimento</label>
+                        <input type="data" name="nascimento" id="nascimento">
+
+                        <input type="hidden" name="codigo" id="codigo" value="123456">
+                        <input type="submit" name="submit" id="submit" value="salvar">    
+                    </form>
+                </div>
+            </div>
+        </section>
+        <footer>Rodape</footer>
+    </main>
+
+</body>
+</html>
